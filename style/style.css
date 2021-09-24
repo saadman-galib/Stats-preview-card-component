@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 1120px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part{
+    width: 50%;
+    background-color: #1C1938;
+    /* float: left; */
+}
+
+.right-part{
+    width: 50%;
+    /* background-color: darkgray; */
+    background-image: linear-gradient();
+}
