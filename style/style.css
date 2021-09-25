@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: hsl(233, 47%, 7%);
 }
 
 .container{
@@ -18,16 +19,24 @@
     margin: auto;
     display: flex;
     flex-direction: row;
+    border-radius: 10px;
 }
 
 .left-part{
     width: 50%;
     background-color: #1C1938;
-    /* float: left; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .right-part{
-    width: 50%;
-    /* background-color: darkgray; */
-    background-image: linear-gradient();
+    background-color: rgba(170, 92, 219, 1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right-part img{
+    width: max-content;
+    height: 450px;
+    mix-blend-mode: multiply;
 }
