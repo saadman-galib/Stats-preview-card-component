@@ -160,3 +160,23 @@ span{
         min-width: 360px;
     }
 }
+
+@media (max-width: 400px) {
+    .container{
+        width: 300px;
+    }
+
+    .left-part{
+        min-width: 300px;
+    }
+}
+
+@media (max-width: 340px) {
+    .container{
+        width: 260px;
+    }
+
+    .left-part{
+        min-width: 260px;
+    }
+}
