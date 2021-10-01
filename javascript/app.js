@@ -3,5 +3,11 @@ var image01 = document.querySelector('.right-part-img')
 
 if (mediaQuery.matches){
     // alert("Ok")
-    document.image01.src('./images/image-header-mobile             .jpg')
+    //document.image01.src('./images/image-header-mobile.jpg');
+    image01.src = ('./images/image-header-mobile.jpg');
+}
+
+else{
+    //document.image01.src('./images/image-header-desktop.jpg');
+    image01.src = ('./images/image-header-desktop.jpg');    
 }
