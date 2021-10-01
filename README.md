@@ -31,7 +31,7 @@ git clone https://github.com/saadman-galib/Stats-preview-card-component.git
 
 ## Acknowledgements
 
-- [Steps to replicate a design with only HTML and CSS](#acknowledgements)
+- [Steps to replicate a design with only HTML, CSS & JS](#acknowledgements)
 
 
 ## Contact
