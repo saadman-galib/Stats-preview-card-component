@@ -139,3 +139,24 @@ span{
 
 
 }
+
+@media (max-width: 530px) {
+    /* *{display: none;} */
+    .container{
+        width: 400px;
+    }
+
+    .left-part{
+        min-width: 400px;
+    }
+}
+
+@media (max-width: 460px) {
+    .container{
+        width: 360px;
+    }
+
+    .left-part{
+        min-width: 360px;
+    }
+}
