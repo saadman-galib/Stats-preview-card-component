@@ -1,4 +1,4 @@
-<h1 align="center">Stats-preview card component</h1>
+<h1 align="center">Stats preview card component</h1>
 
 ## Table of Contents
 
