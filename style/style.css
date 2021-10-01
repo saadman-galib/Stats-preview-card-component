@@ -149,6 +149,10 @@ span{
     .left-part{
         min-width: 400px;
     }
+
+    .left-part h1{
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 460px) {
@@ -159,6 +163,10 @@ span{
     .left-part{
         min-width: 360px;
     }
+
+    .left-part p{
+        font-size: 0.9rem !important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -168,6 +176,10 @@ span{
 
     .left-part{
         min-width: 300px;
+    }
+
+    .left-part p{
+        font-size: 0.85rem !important;
     }
 }
 
